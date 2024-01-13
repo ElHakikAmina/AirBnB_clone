@@ -9,11 +9,11 @@ class User(BaseModel):
     Attributes:
         email (str): the email of the user.
         password (str): the password of the user.
-        first_name (str): the first name of the user.
+        firstname2 (str): the first name of the user.
         last_name (str): the last name of the user.
     """
 
     email = ""
     password = ""
-    first_name = ""
+    firstname2 = ""
     last_name = ""

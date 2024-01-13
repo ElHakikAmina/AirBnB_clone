@@ -38,8 +38,8 @@ class TestUser_yinstantiation(unittest.TestCase):
     def test_password_is_ypublic_str(self):
         self.assertEqual(str, type(User.password))
 
-    def test_first_name_is_ypublic_str(self):
-        self.assertEqual(str, type(User.first_name))
+    def test_firstname2_is_ypublic_str(self):
+        self.assertEqual(str, type(User.firstname2))
 
     def test_last_name_is_ypublic_str(self):
         self.assertEqual(str, type(User.last_name))
