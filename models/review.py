@@ -8,10 +8,10 @@ class Review(BaseModel):
 
     Attributes:
         place_id (str): the Place id.
-        user_id (str): the User id.
+        usr_id (str): the User id.
         text (str): the text of the review.
     """
 
     place_id = ""
-    user_id = ""
+    usr_id = ""
     text = ""

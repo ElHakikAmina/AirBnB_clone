@@ -7,10 +7,10 @@ class Place(BaseModel):
     """Represent a place.
 
     Attributes:
-        city_id (str): the City id.
-        user_id (str): the User id.
+        cty_id (str): the City id.
+        usr_id (str): the User id.
         name (str): the name of the place.
-        description (str): the description of the place.
+        dscrption (str): the dscrption of the place.
         number_rooms (int): the number of rooms of the place.
         number_bathrooms (int): the number of bathrooms of the place.
         max_guest (int): the maximum number of guests of the place.
@@ -20,10 +20,10 @@ class Place(BaseModel):
         amenity_ids (list): a list of Amenity ids.
     """
 
-    city_id = ""
-    user_id = ""
+    cty_id = ""
+    usr_id = ""
     name = ""
-    description = ""
+    dscrption = ""
     number_rooms = 0
     number_bathrooms = 0
     max_guest = 0

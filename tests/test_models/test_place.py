@@ -32,17 +32,17 @@ class TestPlace_Sinstantiation(unittest.TestCase):
     def test_updated_at_is_public_Sdatetime(self):
         self.assertEqual(datetime, type(Place().updated_at))
 
-    def test_city_id_is_public_class_Sattribute(self):
+    def test_cty_id_is_public_class_Sattribute(self):
         ypl = Place()
-        self.assertEqual(str, type(Place.city_id))
-        self.assertIn("city_id", dir(ypl))
-        self.assertNotIn("city_id", ypl.__dict__)
+        self.assertEqual(str, type(Place.cty_id))
+        self.assertIn("cty_id", dir(ypl))
+        self.assertNotIn("cty_id", ypl.__dict__)
 
-    def test_user_id_is_public_class_Sattribute(self):
+    def test_usr_id_is_public_class_Sattribute(self):
         ypl = Place()
-        self.assertEqual(str, type(Place.user_id))
-        self.assertIn("user_id", dir(ypl))
-        self.assertNotIn("user_id", ypl.__dict__)
+        self.assertEqual(str, type(Place.usr_id))
+        self.assertIn("usr_id", dir(ypl))
+        self.assertNotIn("usr_id", ypl.__dict__)
 
     def test_name_is_public_class_Sattribute(self):
         ypl = Place()
@@ -50,10 +50,10 @@ class TestPlace_Sinstantiation(unittest.TestCase):
         self.assertIn("name", dir(ypl))
         self.assertNotIn("name", ypl.__dict__)
 
-    def test_description_is_public_class_Sattribute(self):
+    def test_dscrption_is_public_class_Sattribute(self):
         ypl = Place()
-        self.assertEqual(str, type(Place.description))
-        self.assertIn("description", dir(ypl))
+        self.assertEqual(str, type(Place.dscrption))
+        self.assertIn("dscrption", dir(ypl))
         self.assertNotIn("desctiption", ypl.__dict__)
 
     def test_number_rooms_is_public_class_Sattribute(self):

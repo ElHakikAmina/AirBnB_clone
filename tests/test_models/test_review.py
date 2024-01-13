@@ -72,11 +72,11 @@ class TestReview(unittest.TestCase):
         self.assertTrue(hasattr(review, "place_id"))
         self.assertEqual(review.place_id, "")
 
-    def test_user_id(self):
-        """Test Review has attr user_id, est ses empty string"""
+    def test_usr_id(self):
+        """Test Review has attr usr_id, est ses empty string"""
         review = Review()
-        self.assertTrue(hasattr(review, "user_id"))
-        self.assertEqual(review.user_id, "")
+        self.assertTrue(hasattr(review, "usr_id"))
+        self.assertEqual(review.usr_id, "")
 
     def test_text(self):
         """Test Review has attr text, and c'est une empty string"""
