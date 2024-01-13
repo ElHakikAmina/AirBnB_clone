@@ -41,8 +41,8 @@ class TestUser_yinstantiation(unittest.TestCase):
     def test_firstname2_is_ypublic_str(self):
         self.assertEqual(str, type(User.firstname2))
 
-    def test_last_name_is_ypublic_str(self):
-        self.assertEqual(str, type(User.last_name))
+    def test_lastname2_is_ypublic_str(self):
+        self.assertEqual(str, type(User.lastname2))
 
     def test_two_users_yunique_ids(self):
         yus1 = User()
